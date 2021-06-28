@@ -1,8 +1,8 @@
-*Context*
+*Objective*
 
-It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. How can we employ machine learning algorithms to accurately predict whether a transcation is fraudulent or not? That is the objective of this project. Ultimately, this is a binary ML classification problem. SOme of the features include 'Amount' and 'Time'. We will start by doing an exploratory data analysis to study the class balance, outliers of the data. After fixing the issues, we will employ tree-based methods as well as Naive-Bayes and a neural network for better prediction power.
 
-*Content*
+*Dataset*
 
 The dataset contains transactions made by credit cards in September 2013 by European cardholders.
 This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) 
